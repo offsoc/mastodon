@@ -88,7 +88,7 @@ gem 'sidekiq-scheduler', '~> 6.0'
 gem 'sidekiq-unique-jobs', '> 8'
 gem 'simple_form', '~> 5.2'
 gem 'simple-navigation', '~> 4.4'
-gem 'stoplight', '~> 4.1'
+gem 'stoplight'
 gem 'strong_migrations'
 gem 'tty-prompt', '~> 0.23', require: false
 gem 'twitter-text', '~> 3.1.0'
@@ -146,7 +146,7 @@ group :test do
   gem 'climate_control'
 
   # Validate schemas in specs
-  gem 'json-schema', '~> 5.0'
+  gem 'json-schema', '~> 6.0'
 
   # Test harness fo rack components
   gem 'rack-test', '~> 2.1'
@@ -223,7 +223,7 @@ gem 'connection_pool', require: false
 gem 'xorcist', '~> 1.1'
 
 gem 'net-http', '~> 0.6.0'
-gem 'rubyzip', '~> 2.3'
+gem 'rubyzip', '~> 3.0'
 
 gem 'hcaptcha', '~> 7.1'
 
